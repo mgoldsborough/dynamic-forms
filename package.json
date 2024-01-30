@@ -1,0 +1,19 @@
+{
+  "name": "dynamic-forms",
+  "version": "1.0.0",
+  "private": true,
+  "license": "ISC",
+  "workspaces": {
+    "packages": [
+      "client",
+      "server"
+    ]
+  },
+  "scripts": {
+    "client": "yarn workspace client start",
+    "server": "yarn workspace server start",
+    "test": "yarn workspace server test"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
